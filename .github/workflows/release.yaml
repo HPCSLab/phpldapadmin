@@ -31,5 +31,5 @@ jobs:
         uses: docker/build-push-action@v6
         with:
           context: .
-          tags: ghcr.io/hpcslab/phpldapmyadmin:${{ github.sha }}
+          tags: ghcr.io/hpcslab/phpldapadmin:${{ github.sha }}
           push: true
